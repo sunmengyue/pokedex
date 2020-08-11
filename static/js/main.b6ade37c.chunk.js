@@ -1,0 +1,2 @@
+(this["webpackJsonppoke-deck"]=this["webpackJsonppoke-deck"]||[]).push([[0],{12:function(e,t,n){"use strict";n.r(t);var r=n(0),c=n.n(r),a=n(2),o=n.n(a),u=n(3),p=n(4),i=n(6),s=n(5),l=function(e){Object(i.a)(n,e);var t=Object(s.a)(n);function n(){return Object(u.a)(this,n),t.apply(this,arguments)}return Object(p.a)(n,[{key:"render",value:function(){return c.a.createElement("div",null,"App")}}]),n}(r.Component);o.a.render(c.a.createElement(l,null),document.getElementById("root"))},7:function(e,t,n){e.exports=n(12)}},[[7,1,2]]]);
+//# sourceMappingURL=main.b6ade37c.chunk.js.map
