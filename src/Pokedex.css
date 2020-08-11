@@ -1,0 +1,38 @@
+.Pokedex {
+    margin-left: 0.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Pokedex .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+}
+
+.Pokedex h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.Pokedex h2 {
+    color:blue;
+    text-align: center;
+}
+
+.Pokecard {
+    background:rgb(167, 166, 166);
+    border-radius: 10px;
+}
+
+.Pokecard img {
+    padding-left: 20%;
+}
+
+.Pokecard p {
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+
+}
