@@ -17,10 +17,17 @@ class Pokedex extends Component {
           ]
     }
     render() {
+        let title;
+        if (this.props.isWinner) {
+           title = <h2 className="pokedex-winner">Winning Hand</h2>
+        } else {
+            title = <h2 className="pokedex-loser">Losing Hand</h2>
+        }
       
         return(
            <div className="pokedex"> 
-               <h1>Pokedex</h1>
+               {title}
+               <h4>Total Experience: {this.props.exp}</h4>
                <div className="pokedex-cards">
                     {this.props.pokemons.map((pokemon, key) => {
                         return <Pokecard 
@@ -31,7 +38,7 @@ class Pokedex extends Component {
                                     exp={pokemon.base_experience}/>
                     })}
                </div>
-                <h3>{this.props.isWinner}</h3>
+             
            </div>
         )
     }
